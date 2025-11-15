@@ -1,0 +1,14 @@
+[flake8]
+max-line-length = 119
+exclude =
+    .git,
+    __pycache__,
+    */migrations/*,
+    */static/*,
+    */media/*,
+    venv,
+    env,
+    .venv
+ignore =
+    E203,  # whitespace before ':'
+    W503,  # line break before binary operator
